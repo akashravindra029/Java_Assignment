@@ -7,7 +7,7 @@ class studnt {
 public class Main {
     public static void main(String[] args) {
         studnt s = new studnt();
-        s.name = "Vignesh";
+        s.name = "Akash";
         System.out.println("Student name is: " + s.name);  // print the name
     }
 }
