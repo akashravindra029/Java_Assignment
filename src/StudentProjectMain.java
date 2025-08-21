@@ -81,14 +81,14 @@ class StudentDatabase implements DatabaseOperations {
 
     public void addStudent(Student student) {
         students.put(student.id, student);  // Overwrites if ID already exists
-        System.out.println("✅ Student added successfully.");
+        System.out.println("Student Added Successfully.");
     }
 
     public void viewStudents() {
         if (students.isEmpty()) {
-            System.out.println("⚠ No students found.");
+            System.out.println(" No students found.");
         } else {
-            System.out.println("📋 All Students:");
+            System.out.println("All Students:");
             for (Student s : students.values()) {
                 s.displayInfo();
                 System.out.println("----------------");
@@ -101,15 +101,15 @@ class StudentDatabase implements DatabaseOperations {
         if (student != null) {
             student.setCourse(newCourse);
             student.setMarks(newMarks);
-            System.out.println("✅ Student updated.");
+            System.out.println(" Student Updated.");
         } else {
-            System.out.println("⚠ Student not found.");
+            System.out.println(" Student not found.");
         }
     }
 
     public void deleteStudent(int id) {
         if (students.remove(id) != null) {
-            System.out.println("✅ Student deleted.");
+            System.out.println(" Student Deleted.");
         } else {
             System.out.println("⚠ Student not found.");
         }
