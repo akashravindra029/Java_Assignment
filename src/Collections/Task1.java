@@ -1,4 +1,4 @@
-package ArrayandLinkList;
+package Collections;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -8,12 +8,12 @@ import java.util.LinkedList;
         public static void main(String[] args) {
 
             // 1. Create an ArrayList of integers, add 10 numbers, and print them using a for-each loop.
-            ArrayList<Integer> evenNumbers = new ArrayList<>();
-            for (int i = 2; i <= 30; i += 2) {
-                evenNumbers.add(i); // Adds 2, 4, 6, ..., 20
+            ArrayList<Integer> Numbers = new ArrayList<>();
+            for (int i = 3; i <= 30; i += 3) {
+                Numbers.add(i); // Adds 2, 4, 6, ..., 20
             }
-            System.out.println("1. Even numbers using for-each loop:");
-            for (int num : evenNumbers) {
+            System.out.println("1.Numbers using for-each loop:");
+            for (int num : Numbers) {
                 System.out.print(num + " ");
             }
             System.out.println("\n");
@@ -33,8 +33,8 @@ import java.util.LinkedList;
             System.out.println("3. Is task list empty? " + tasks.isEmpty());
             tasks.add("Complete homework");
             tasks.add("Go for a walk");
-            System.out.println("   Size of task list: " + tasks.size());
-            System.out.println("   Is task list empty now? " + tasks.isEmpty());
+            System.out.println(" Size of task list: " + tasks.size());
+            System.out.println(" Is task list empty now? " + tasks.isEmpty());
             System.out.println();
 
             // 4. Write a program to check if an element exists in an ArrayList using contains().
