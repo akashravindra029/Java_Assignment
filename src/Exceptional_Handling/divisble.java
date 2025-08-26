@@ -7,7 +7,7 @@ public class divisble {
             int result = p / q;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error:ArthematicException Occurs Here.");
+            System.out.println("Arthematic Exception Occurs Here.");
         }
     }
 }

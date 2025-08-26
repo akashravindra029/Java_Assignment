@@ -10,7 +10,7 @@ public class finally_ex {
             } catch (ArithmeticException e) {
                 System.out.println("Exception catch " + e.getMessage());
             } finally {
-                System.out.println("Its is the finally block. It always runs.");
+                System.out.println("It's  the finally block,and always runs.");
             }
         }
     }

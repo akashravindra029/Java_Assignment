@@ -18,7 +18,7 @@ public class nested_try {
                 // Inner try block 2
                 try {
                     String invalidNumber = "abc";
-                    int parsed = Integer.parseInt(invalidNumber); // NumberFormatException
+                    int parsed = Integer.parseInt(invalidNumber);
                     System.out.println("Parsed number: " + parsed);
                 } catch (NumberFormatException e) {
                     System.out.println("Caught in inner try 2: " + e.getMessage());
