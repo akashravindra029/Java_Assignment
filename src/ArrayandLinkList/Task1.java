@@ -45,6 +45,7 @@ import java.util.LinkedList;
             animals.add("Lion");
             System.out.println("4. Does the list contain 'Cat'? " + animals.contains("Cat"));
             System.out.println("   Does the list contain 'Tiger'? " + animals.contains("Tiger"));
+            System.out.println("   Does the list contain 'Whale'? " + animals.contains("Whale"));
             System.out.println();
 
             // 5. Add elements to a LinkedList, then remove the first and last element.
