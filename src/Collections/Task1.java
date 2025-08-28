@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
             // 1. Create an ArrayList of integers, add 10 numbers, and print them using a for-each loop.
             ArrayList<Integer> Numbers = new ArrayList<>();
-            for (int i = 3; i <= 30; i += 3) {
+            for (int i = 1; i <= 10; i += 1) {
                 Numbers.add(i); // Adds 2, 4, 6, ..., 20
             }
             System.out.println("1.Numbers using for-each loop:");
@@ -46,7 +46,7 @@ import java.util.LinkedList;
             System.out.println("4. Does the list contain 'Cat'? " + animals.contains("Cat"));
             System.out.println("   Does the list contain 'Tiger'? " + animals.contains("Tiger"));
             System.out.println("   Does the list contain 'Whale'? " + animals.contains("Whale"));
-            System.out.println();
+            System.out.println(animals);
 
             // 5. Add elements to a LinkedList, then remove the first and last element.
             LinkedList<String> languages = new LinkedList<>();
