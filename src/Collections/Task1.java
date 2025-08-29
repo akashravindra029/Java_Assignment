@@ -55,10 +55,10 @@ import java.util.LinkedList;
             languages.add("C++");
             languages.add("JavaScript");
             languages.add("Ruby");
-            System.out.println("5. Original LinkedList of languages: " + languages);
+            System.out.println("5. Original List of languages: " + languages);
             languages.removeFirst();
             languages.removeLast();
-            System.out.println("   After removing first and last: " + languages);
+            System.out.println("   After removing first and last Language: " + languages);
         }
     }
 
