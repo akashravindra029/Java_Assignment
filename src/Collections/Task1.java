@@ -31,8 +31,8 @@ import java.util.LinkedList;
             // 3. Demonstrate the difference between size() and isEmpty() using an ArrayList.
             ArrayList<String> tasks = new ArrayList<>();
             System.out.println("3. Is task list empty? " + tasks.isEmpty());
-            tasks.add("Complete homework");
-            tasks.add("Go for a walk");
+            tasks.add("Complete Homework");
+            tasks.add("Go for a Walk");
             System.out.println(" Size of task list: " + tasks.size());
             System.out.println(" Is task list empty now? " + tasks.isEmpty());
             System.out.println();
@@ -44,7 +44,7 @@ import java.util.LinkedList;
             animals.add("Elephant");
             animals.add("Lion");
             System.out.println("4. Does the list contain 'Cat'? " + animals.contains("Cat"));
-            System.out.println("   Does the list contain 'Tiger'? " + animals.contains("Tiger"));
+            System.out.println("   Does the  contalistin 'Tiger'? " + animals.contains("Tiger"));
             System.out.println("   Does the list contain 'Whale'? " + animals.contains("Whale"));
             System.out.println(animals);
 
